@@ -15,7 +15,7 @@ Description: Linear factor model fitting for asset returns (three major types-
 License: GPL-2
 Depends: 
     R (>= 3.5)
-    Imports:
+Imports:
     boot,
     data.table,
     doSNOW,
