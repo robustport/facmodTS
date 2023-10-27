@@ -1,35 +1,9 @@
 Package: facmodTS
 Type: Package
-Title: Time Series Factor Models
+Title: What the package does (short line)
 Version: 1.0
-Date: 2023-08-02
-Authors@R: c(person(given="Doug",family="Martin",role=c("ctb","aut"),
-    email="martinrd3d@gmail.com"),
-    person(given="Kirk",family="Li",role=c("aut","ctb"),
-    email="cocokecoli@gmail.com"))
-Maintainer: Doug Martin <martinrd3d@gmail.com>
-Description: Time series factor model fitting with least-squares 
-    and the robust regression function 'lmrobdetMM()' from 'RobStatTM'.
-License: GPL-2
-Depends: 
-    R (>= 3.5),
-Imports:
-    data.table,
-    xts,
-    zoo,
-    PerformanceAnalytics,
-    lattice,
-    methods,
-    sn,
-    tseries,
-	robustbase,
-	RobStatTM,
-Suggests:
-    PCRA,
-    corrplot,
-    lmtest,
-    rugarch,
-    HH
-URL: https://github.com/robustport/facmodCS
-RoxygenNote: 7.2.3
-Encoding: UTF-8
+Date: 2023-10-27
+Author: Who wrote it
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
