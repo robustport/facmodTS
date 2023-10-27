@@ -1,9 +1,47 @@
 Package: facmodTS
 Type: Package
-Title: What the package does (short line)
+Title: Time Series Factor Models for Asset Returns
 Version: 1.0
 Date: 2023-10-27
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Eric Zivot, Doug Martin, Sangeetha
+     Srinivasan, Avinash Acharya, Yi-An Chen,
+     Mido Shammaa, Lingjie Yi, and Kirk Li.
+Maintainer: Doug Martin <martinrd3d@gmail.com>
+Description: Linear factor model fitting for asset returns (three major types-
+    time series, fundamental and statistical factor models); related risk
+    (volatility, VaR and ES) and performance attribution (factor-contributed vs
+    idiosyncratic returns); tabular displays of risk and performance reports;
+    factor model Monte Carlo.
+License: GPL-2
+Depends: 
+    R (>= 3.5)
+    Imports:
+    boot,
+    data.table,
+    doSNOW,
+    foreach,
+    lars,
+    lattice,
+    leaps,
+    parallel,
+    PerformanceAnalytics,
+    RCurl,
+    RobStatTM,
+    robustbase,
+    sandwich,
+    sn,
+    tseries,
+    xts,
+    zoo
+Suggests:
+    corrplot,
+    HH,
+    lmtest,
+    R.rsp,
+    rugarch,
+    strucchange,
+    tinytest
+VignetteBuilder: R.rsp
+URL: https://github.com/robustport/facmodTS
+RoxygenNote: 7.2.3
+Encoding: UTF-8
