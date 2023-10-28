@@ -46,7 +46,7 @@ Quantitative Approach for Producing Superior Returns and Controlling Risk.
 McGraw-Hill.
 }
 \seealso{
-\code{\link{fitTsfm}}, \code{\link{fitFfm}} 
+\code{\link{fitTsfm}}
 for the factor model fitting functions.
 
 The \code{pafm} methods for generic functions: 
