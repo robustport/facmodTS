@@ -9,7 +9,7 @@
 #' \code{\link[lars]{predict.lars}} such as \code{mode}.
 #' 
 #' @return 
-#' \code{predict.tsfmUpDm} produces a list of \code{Up} and \code{Dn}. Both \code{Up} and \code{Dn} contain a 
+#' \code{predict.tsfmUpDn} produces a list of \code{Up} and \code{Dn}. Both \code{Up} and \code{Dn} contain a 
 #' vector or a matrix of predictions.
 #' 
 #' @author Yi-An Chen and Sangeetha Srinivasan
@@ -28,7 +28,8 @@
 #'  
 #' predict(fitUpDn)
 #' 
-#' @method predict tsfmUpDn
+#' @rdname predict.tsfmUpDn
+#' @method print predict.tsfmUpDn
 #' @export
 #' 
 

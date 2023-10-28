@@ -4,7 +4,7 @@
 \alias{predict.tsfmUpDn}
 \title{Predicts asset returns based on a fitted up and down market time series factor model}
 \usage{
-\method{predict}{tsfmUpDn}(object, ...)
+\method{print}{predict.tsfmUpDn}(object, ...)
 }
 \arguments{
 \item{object}{an object of class \code{tsfmUpDn} produced by \code{fitTsfmUpDn}.}
@@ -14,7 +14,7 @@
 \code{\link[lars]{predict.lars}} such as \code{mode}.}
 }
 \value{
-\code{predict.tsfmUpDm} produces a list of \code{Up} and \code{Dn}. Both \code{Up} and \code{Dn} contain a 
+\code{predict.tsfmUpDn} produces a list of \code{Up} and \code{Dn}. Both \code{Up} and \code{Dn} contain a 
 vector or a matrix of predictions.
 }
 \description{
