@@ -57,7 +57,7 @@ paFm <- function(fit, ...) {
   
   # TSFM chunk  
   
-  if (class(fit)=="tsfm") {
+  if(class(fit)=="tsfm") {
     
     # return attributed to factors
     cum.attr.ret <- fit$beta
@@ -108,7 +108,7 @@ paFm <- function(fit, ...) {
     }
   }    
   
-  if (class(fit)=="ffm" ) {
+  if(class(fit)=="ffm" ) {
     # if benchmark is provided
     #       if (!is.null(benchmark)) {
     #         stop("use fitFundamentalFactorModel instead")
@@ -159,7 +159,7 @@ paFm <- function(fit, ...) {
     }
   }
   
-  if (class(fit)=="sfm") {
+  if(class(fit)=="sfm") {
     
     # return attributed to factors
     cum.attr.ret <- fit$loadings
