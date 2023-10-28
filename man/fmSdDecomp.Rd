@@ -85,7 +85,7 @@ and value-at-risk: their estimation error, decomposition, and optimization.
 Monetary and economic studies, 20(1), 87-121.
 }
 \seealso{
-\code{\link{fitTsfm}}, \code{\link{fitFfm}}
+\code{\link{fitTsfm}}
 for the different factor model fitting functions.
 
 \code{\link{fmCov}} for factor model covariance.
