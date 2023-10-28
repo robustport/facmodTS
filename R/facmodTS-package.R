@@ -17,6 +17,10 @@
 #' @importFrom robustbase scaleTau2
 #' @importFrom R.cache loadCache saveCache
 #' @importFrom graphics panel.smooth rug
+#' @importFrom grDevices dev.off
+#' @importFrom stats as.formula coef cor cov2cor density fitted
+#' @importFrom stats fitted formula hatvalues lag na.omit 
+#' @importFrom stats printCoefmat quantile residuals time
 
 "_PACKAGE"
 
