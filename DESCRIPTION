@@ -12,30 +12,26 @@ Description: Linear factor model fitting for asset returns (three major types-
     (volatility, VaR and ES) and performance attribution (factor-contributed vs
     idiosyncratic returns); tabular displays of risk and performance reports;
     factor model Monte Carlo.
-License: GPL-2
+License:
+    GPL-2
 Depends: 
     R (>= 3.5)
 Imports:
     boot,
     data.table,
-    doSNOW,
-    foreach,
     lars,
     lattice,
     leaps,
-    parallel,
     PerformanceAnalytics,
     PortfolioAnalytics,
     R.cache,
     corpcor,
     methods,
     quadprog,
-    RCurl,
     RobStatTM,
     robustbase,
     sandwich,
     sn,
-    tseries,
     xts,
     zoo
 Suggests:
