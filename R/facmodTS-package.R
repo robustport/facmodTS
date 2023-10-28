@@ -4,7 +4,7 @@
 #' @importFrom graphics abline arrows axis barplot box boxplot identify legend lines mtext par points polygon segments strheight strwidth text title
 #' @importFrom methods cbind2
 #' @importFrom stats cov dnorm integrate lm mad median pnorm qchisq sd uniroot var qnorm qqnorm
-#' @importFrom utils globalVariables
+#' @importFrom utils globalVariables download.file menu
 #' @importFrom lattice panel.abline xyplot panel.xyplot
 #' @importFrom xts xts as.xts apply.monthly
 #' @importFrom zoo zoo coredata index index<-
@@ -16,7 +16,7 @@
 #' @importFrom RobStatTM locScaleM lmrobdet.control lmrobdetMM
 #' @importFrom robustbase scaleTau2
 #' @importFrom R.cache loadCache saveCache
-#' @importFrom utils download.file
+#' @importFrom graphics panel.smooth rug
 
 "_PACKAGE"
 
