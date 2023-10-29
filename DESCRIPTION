@@ -3,15 +3,15 @@ Type: Package
 Title: Time Series Factor Models for Asset Returns
 Version: 1.0
 Date: 2023-10-27
-Author: Eric Zivot, Doug Martin, Sangeetha
-     Srinivasan, Avinash Acharya, Yi-An Chen,
-     Mido Shammaa, Lingjie Yi, and Kirk Li.
+Author: Eric Zivot, Doug Martin, Sangeetha Srinivasan,
+     Avinash Acharya, Yi-An Chen, Kirk Li, Mido Shammaa, 
+     Lingjie Yi, and Justin Shea.
 Maintainer: Doug Martin <martinrd3d@gmail.com>
-Description: Linear factor model fitting for asset returns (three major types-
-    time series, fundamental and statistical factor models); related risk
-    (volatility, VaR and ES) and performance attribution (factor-contributed vs
-    idiosyncratic returns); tabular displays of risk and performance reports;
-    factor model Monte Carlo.
+Description: Asset returns linear time series factor model
+    fitting with both least squares and robust regression; 
+    model selection methods; returns factor and residuals
+    decompositions; StdDev, VaR, ES risk decompositions;
+    tabular and graphical risk and performance evaluation.
 License:
     GPL-2
 Depends: 
