@@ -47,10 +47,6 @@ time series}
 Generic function of plot method for paFm.
 Either plot all assets or choose a single asset to plot.
 }
-\examples{
-args(plot.pafm)
-
-}
 \author{
 Yi-An Chen.
 }

@@ -27,9 +27,6 @@
 #' 
 #' @author Yi-An Chen.
 #' 
-#' @examples
-#' args(plot.pafm)
-#' 
 #' @method plot pafm  
 #' @export
 #' 
