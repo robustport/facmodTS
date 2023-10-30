@@ -3,7 +3,7 @@ Type: Package
 Title: Time Series Factor Models for Asset Returns
 Version: 1.0
 Date: 2023-10-27
-Author: Eric Zivot, Doug Martin, Sangeetha Srinivasan,
+Author: Doug Martin, Eric Zivot, Sangeetha Srinivasan,
      Avinash Acharya, Yi-An Chen, Kirk Li, Mido Shammaa, 
      Lingjie Yi, and Justin Shea.
 Maintainer: Doug Martin <martinrd3d@gmail.com>
