@@ -28,17 +28,7 @@
 #' @author Yi-An Chen.
 #' 
 #' @examples
-#' \donttest{
-#' data(managers, package = 'PerformanceAnalytics')
-#' fit <- fitTsfm(asset.names=colnames(managers[,(1:6)]),
-#'                factor.names=c("EDHEC LS EQ","SP500 TR"), data=managers)
-#' fm.attr <- paFm(fit)
-#' # plot all
-#' plot(fm.attr, legend.loc="topleft", max.show=6)
-#' dev.off()
-#' # plot only one assets "HAM1
-#' plot(fm.attr, plot.single=TRUE, fundName="HAM1")
-#' }
+#' args(plot.pafm)
 #' 
 #' @method plot pafm  
 #' @export
