@@ -1,7 +1,7 @@
 #' @title Summarizing a fitted up and down market time series factor model
 #' 
 #' @description \code{summary} method for object of class \code{tsfmUpDn}. 
-#' Returned object is of class {summary.tsfmUpDn}. This function provides a \code{summary}
+#' Returned object is of class \code{summary.tsfmUpDn}. This function provides a \code{summary}
 #' method to an object returned by a wrapper function \code{fitTsfmUpDn}.
 #' 
 #' @details Since \code{fitTsfmUpDn} fits both up market and down market,

@@ -10,8 +10,9 @@ Maintainer: Doug Martin <martinrd3d@gmail.com>
 Description: Asset returns linear time series factor model
     fitting with both least squares and robust regression; 
     model selection methods; returns factor and residuals
-    decompositions; StdDev, VaR, ES risk decompositions;
-    tabular and graphical risk and performance evaluation.
+    decompositions; Standard Deviation, Value-at-Risk, and
+    Expected Shortfall risk decompositions; tabular
+    and graphical risk and performance evaluation.
 License:
     GPL-2
 Depends: 
@@ -42,7 +43,6 @@ Suggests:
     rugarch,
     strucchange,
     tinytest
-VignetteBuilder: R.rsp
 URL: https://github.com/robustport/facmodTS
 RoxygenNote: 7.2.3
 Encoding: UTF-8

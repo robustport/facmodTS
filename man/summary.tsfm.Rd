@@ -42,7 +42,7 @@ Object of class \code{summary.tsfm} is a list of length N + 2 containing:
 }
 \description{
 \code{summary} method for object of class \code{tsfm}. 
-Returned object is of class {summary.tsfm}.
+Returned object is of class \code{summary.tsfm}.
 }
 \details{
 The default \code{summary} method for a fitted \code{lm} object 

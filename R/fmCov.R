@@ -7,7 +7,7 @@
 #' @details \code{R(i, t)}, the return on asset \code{i} at time \code{t}, 
 #' is assumed to follow a factor model of the form, \cr \cr 
 #' \code{R(i,t) = alpha(i) + beta(i)*f(t) + e(i,t)}, \cr \cr  
-#' where, \code{alpha(i)} is the intercept, \code{f(t)} is a {K x 1} vector of 
+#' where, \code{alpha(i)} is the intercept, \code{f(t)} is a \code{K x 1} vector of 
 #' factor returns at time \code{t}, \code{beta(i)} is a \code{1 x K} vector of 
 #' factor exposures and the error terms \code{e(i,t)} are serially 
 #' uncorrelated across time and contemporaneously uncorrelated across assets 

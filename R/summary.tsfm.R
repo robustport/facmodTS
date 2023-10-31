@@ -1,7 +1,7 @@
 #' @title Summarizing a fitted time series factor model
 #' 
 #' @description \code{summary} method for object of class \code{tsfm}. 
-#' Returned object is of class {summary.tsfm}.
+#' Returned object is of class \code{summary.tsfm}.
 #' 
 #' @details The default \code{summary} method for a fitted \code{lm} object 
 #' computes the standard errors and t-statistics under the assumption of 

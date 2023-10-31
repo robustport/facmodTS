@@ -6,7 +6,7 @@
 \alias{facmodTS-package}
 \title{facmodTS: Time Series Factor Models for Asset Returns}
 \description{
-Asset returns linear time series factor model fitting with both least squares and robust regression; model selection methods; returns factor and residuals decompositions; StdDev, VaR, ES risk decompositions; tabular and graphical risk and performance evaluation.
+Asset returns linear time series factor model fitting with both least squares and robust regression; model selection methods; returns factor and residuals decompositions; Standard Deviation, Value-at-Risk, and Expected Shortfall risk decompositions; tabular and graphical risk and performance evaluation.
 }
 \seealso{
 Useful links:

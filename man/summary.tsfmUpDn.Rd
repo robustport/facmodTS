@@ -34,7 +34,7 @@ Object of class \code{summary.tsfmUpDn} is a list of 2 containing:
 }
 \description{
 \code{summary} method for object of class \code{tsfmUpDn}. 
-Returned object is of class {summary.tsfmUpDn}. This function provides a \code{summary}
+Returned object is of class \code{summary.tsfmUpDn}. This function provides a \code{summary}
 method to an object returned by a wrapper function \code{fitTsfmUpDn}.
 }
 \details{
