@@ -3,10 +3,17 @@ Type: Package
 Title: Time Series Factor Models for Asset Returns
 Version: 1.0
 Date: 2023-10-27
-Author: Doug Martin, Eric Zivot, Sangeetha Srinivasan,
-     Avinash Acharya, Yi-An Chen, Kirk Li, Mido Shammaa, 
-     Lingjie Yi, and Justin Shea.
-Maintainer: Doug Martin <martinrd3d@gmail.com>
+Authors@R: c(person(given="Doug",family="Martin",role=c("cre","aut"),
+     email="martinrd3d@gmail.com"),
+     person(given="Eric",family="Zivot",role="aut"),
+     person(given="Sangeetha",family="Srinivasan",role="aut"),
+     person(given="Avinash",family="Acharya",role="ctb"),
+     person(given="Yi-An",family="Chen",role="ctb"),
+     person(given="Kirk",family="Li",role="ctb"),
+     person(given="Lingjie",family="Yi",role="ctb"),
+     person(given="Justin",family="Shea",role="ctb"),
+     person(given="Mido",family="Shammaa",role="ctb"),
+     person(given="Jon",family="Spinney",role="ctb"))
 Description: Asset returns linear time series factor model
     fitting with both least squares and robust regression; 
     model selection methods; returns factor and residuals

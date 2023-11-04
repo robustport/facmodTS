@@ -15,4 +15,25 @@ Useful links:
 }
 
 }
+\author{
+\strong{Maintainer}: Doug Martin \email{martinrd3d@gmail.com}
+
+Authors:
+\itemize{
+  \item Eric Zivot
+  \item Sangeetha Srinivasan
+}
+
+Other contributors:
+\itemize{
+  \item Avinash Acharya [contributor]
+  \item Yi-An Chen [contributor]
+  \item Kirk Li [contributor]
+  \item Lingjie Yi [contributor]
+  \item Justin Shea [contributor]
+  \item Mido Shammaa [contributor]
+  \item Jon Spinney [contributor]
+}
+
+}
 \keyword{internal}
