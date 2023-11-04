@@ -43,6 +43,9 @@ will create a menu to choose. Defualt is none.\cr
 \item{...}{more arguements for \code{chart.TimeSeries} used for plotting
 time series}
 }
+\value{
+\code{plot.pafm} returns a plot for an object of class \code{pafm}.
+}
 \description{
 Generic function of plot method for paFm.
 Either plot all assets or choose a single asset to plot.

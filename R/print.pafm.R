@@ -6,6 +6,9 @@
 #' \code{paFm}.
 #' @param ...  Other arguments for \code{print} methods.
 #' 
+#' @return \code{print.pafm} prints a brief summary of an object of class 
+#' \code{pafm}.
+#' 
 #' @author Yi-An Chen.
 #' 
 #' @examples

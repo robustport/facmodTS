@@ -50,6 +50,9 @@ line and the second element for the comparison fitted line. The default is \code
 
 \item{...}{Other arguments can be used in \code{plot}. Please refer to \code{plot}.}
 }
+\value{
+\code{plot.tsfmUpDn} returns a plot for an object of class \code{tsfmUpDn}.
+}
 \description{
 Generic \code{plot} method for object of class \code{tsfmUpDn}.
 }

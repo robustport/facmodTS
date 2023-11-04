@@ -8,10 +8,13 @@
 #' @param digits an integer value, to indicate the required number of 
 #' significant digits. Default is 3.
 #' @param ... optional arguments passed to the \code{print} method.
-#'    
-#' @author Yi-An Chen and Sangeetha Srinivasan
-#' 
+#'
 #' @seealso \code{\link{fitTsfmUpDn}}, \code{\link{summary.tsfmUpDn}}
+#'
+#' @return \code{print.tsfmUpDn} prints a brief summary of an object of class 
+#' \code{tsfmUpDn}.
+#'  
+#' @author Yi-An Chen and Sangeetha Srinivasan
 #' 
 #' @examples
 #'  # load data

@@ -25,6 +25,8 @@
 #' @param ...  more arguements for \code{chart.TimeSeries} used for plotting
 #' time series
 #' 
+#' @return \code{plot.pafm} returns a plot for an object of class \code{pafm}.
+#' 
 #' @author Yi-An Chen.
 #' 
 #' @method plot pafm  

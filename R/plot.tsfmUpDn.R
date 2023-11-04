@@ -30,9 +30,12 @@
 #' @param legend.loc The default is \code{"topleft"}.
 #' @param legend.cex \code{cex} of \code{legend}.
 #' @param ... Other arguments can be used in \code{plot}. Please refer to \code{plot}.
-#' @author Yi-An Chen
+#' 
+#' @return \code{plot.tsfmUpDn} returns a plot for an object of class \code{tsfmUpDn}.
 #' 
 #' @seealso \code{\link{fitTsfmUpDn}} 
+#' 
+#' @author Yi-An Chen
 #' 
 #' @examples
 #' 

@@ -12,6 +12,10 @@
 
 \item{...}{Other arguments for \code{print} methods.}
 }
+\value{
+\code{print.pafm} prints a brief summary of an object of class 
+\code{pafm}.
+}
 \description{
 Generic function of print method for \code{paFm}.
 }

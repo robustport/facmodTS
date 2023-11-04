@@ -8,10 +8,13 @@
 #' @param digits an integer value, to indicate the required number of 
 #' significant digits. Default is 3.
 #' @param ... optional arguments passed to the \code{print} method.
+#'
+#' @seealso \code{\link{fitTsfm}}, \code{\link{summary.tsfm}}
+#'
+#' @return \code{print.tsfm} prints a brief summary of an object of class 
+#' \code{tsfm}.
 #'    
 #' @author Yi-An Chen and Sangeetha Srinivasan
-#' 
-#' @seealso \code{\link{fitTsfm}}, \code{\link{summary.tsfm}}
 #' 
 #' @examples
 #' data(managers, package = 'PerformanceAnalytics')

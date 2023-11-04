@@ -14,6 +14,10 @@ significant digits. Default is 3.}
 
 \item{...}{optional arguments passed to the \code{print} method.}
 }
+\value{
+\code{print.tsfm} prints a brief summary of an object of class 
+\code{tsfm}.
+}
 \description{
 S3 \code{print} method for object of class \code{tsfm}. Prints 
 the call, factor model dimension, regression coefficients, r-squared and 

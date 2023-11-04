@@ -101,6 +101,8 @@
 #' @param maxlag optional number of lags to be calculated for ACF. Default is 15.
 #' @param ... further arguments to be passed to other plotting functions.
 #' 
+#' @return \code{plot.tsfm} returns a plot for an object of class \code{tsfm}.
+#' 
 #' @author Eric Zivot, Sangeetha Srinivasan and Yi-An Chen
 #' 
 #' @seealso \code{\link{fitTsfm}}, \code{\link{residuals.tsfm}}, 

@@ -7,6 +7,10 @@
 #' @param digits integer indicating the number of decimal places. Default is 3.
 #' @param ...  Other arguments for \code{print} methods.
 #' 
+#' @return Returns an object of class \code{summary.pafm}. 
+#' The print method for class \code{summary.pafm} outputs the means of the
+#' specific returns of the factors.
+#' 
 #' @author Yi-An Chen.
 #' 
 #' @examples

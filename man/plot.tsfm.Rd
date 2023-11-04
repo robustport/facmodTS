@@ -92,6 +92,9 @@ in \code{plot}. Default is 1.}
 
 \item{...}{further arguments to be passed to other plotting functions.}
 }
+\value{
+\code{plot.tsfm} returns a plot for an object of class \code{tsfm}.
+}
 \description{
 Generic \code{plot} method for object of class \code{tsfm}. 
 Plots chosen characteristic(s) for one or more assets.

@@ -14,6 +14,11 @@
 
 \item{...}{Other arguments for \code{print} methods.}
 }
+\value{
+Returns an object of class \code{summary.pafm}. 
+The print method for class \code{summary.pafm} outputs the means of the
+specific returns of the factors.
+}
 \description{
 Generic function of summary method for \code{paFm}.
 }
