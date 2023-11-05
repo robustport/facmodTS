@@ -63,7 +63,7 @@ plot.pafm <- function(x, which.plot=c("none","1L","2L","3L"),max.show=6,
            "2L" ={
              bar <- coredata(x$attr.list[[fundName]][as.Date(date)])
              tryCatch({barplot(bar, horiz=TRUE, main=fundName, las=1)},
-                      error=function(e){cat("\this date is not available for 
+                      error=function(e){message("\this date is not available for 
                                             this asset.\n")})
            },
            "3L" = {
@@ -87,7 +87,7 @@ plot.pafm <- function(x, which.plot=c("none","1L","2L","3L"),max.show=6,
                          title="performance attribution plot 
                          \nMake a plot selection (or 0 to exit):\n") 
     if (n >= max.show) {
-      cat(paste("numbers of assets are greater than ", max.show, 
+      message(paste("numbers of assets are greater than ", max.show, 
                 "; showing only first ", max.show, " assets.", sep=""))
       n <- max.show 
     }
@@ -109,7 +109,7 @@ plot.pafm <- function(x, which.plot=c("none","1L","2L","3L"),max.show=6,
                  bar <- coredata(x$attr.list[[i]][as.Date(date)])
                  barplot(bar, horiz=TRUE, main=i, las=1)
                }, error=function(e) {
-                 cat("\nDate for some assets returns is not available.\n")
+                 message("\nDate for some assets returns is not available.\n")
                  dev.off()
                } )
              }
