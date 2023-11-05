@@ -67,6 +67,9 @@ plot.tsfmUpDn <- function(x,asset.name=NULL,SFM.line=FALSE,LSandRob=FALSE,
                           line.color=c("blue","purple"),line.type=c("dashed","solid"),
                           line.width=c(1,2),sfm.line.type = "dashed",
                           add.legend=TRUE,legend.loc="topleft",legend.cex=0.9,...) {
+
+  oldpar <- par(no.readonly = TRUE) 
+  on.exit(par(oldpar))
   
   # specify the name of market returns and the assets returns
   mkt.name = x$Up$factor.names
