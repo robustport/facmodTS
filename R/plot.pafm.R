@@ -40,7 +40,8 @@ plot.pafm <- function(x, which.plot=c("none","1L","2L","3L"),max.show=6,
   if (is.null(date)){
     date = zoo::index(x[[3]][[1]])[1]
   }
-  
+  oldpar <- par(no.readonly = TRUE) 
+  on.exit(par(oldpar))
   # plot single assets
   if (plot.single==TRUE){
     
