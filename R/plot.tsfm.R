@@ -169,7 +169,10 @@ plot.tsfm <- function(x, which=NULL, f.sub=1:2, a.sub=1:6,
   
   which.vec <- which
   which <- which[1]
-  
+
+  oldpar <- par(no.readonly = TRUE) 
+  on.exit(par(oldpar))
+	
   meth <- x$fit.method # one of "LS", "DLS" or "Robust"
   if (is.null(meth)) {meth <- "Lars"}
   
