@@ -139,12 +139,6 @@
 #' summary(fit)
 #' fitted(fit)
 #' 
-#' # plot actual returns vs. fitted factor model returns for HAM1
-#' plot(fit, plot.single=TRUE, asset.name="HAM1", which=1)
-#' 
-#' # plot(fit) # this presents a menu for group plots
-#' # select desired plot from the menu (auto-looped for multiple plots)
-#' 
 #' # example using "subsets" variable selection
 #' fit.sub <- fitTsfm(asset.names=colnames(managers[,(1:6)]),
 #'                    factor.names=colnames(managers[,(7:9)]), 
