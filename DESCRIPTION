@@ -14,14 +14,18 @@ Authors@R: c(person(given="Doug",family="Martin",role=c("cre","aut"),
      person(given="Justin",family="Shea",role="ctb"),
      person(given="Mido",family="Shammaa",role="ctb"),
      person(given="Jon",family="Spinney",role="ctb"))
-Description: Asset returns linear time series factor model
-    fitting with both least squares and robust regression; 
-    model selection methods; returns factor and residuals
-    decompositions; Standard Deviation, Value-at-Risk, and
-    Expected Shortfall risk decompositions; tabular
-    and graphical risk and performance evaluation.
-License:
-    GPL-2
+Description: The package is collection of functions that support teaching
+    methods of estimating and testing time series factor models for use in
+    robust portfolio construction and analysis. The fitting methods include
+    both classical least squares, and modern robust model fitting methods
+    which are not much influenced by outliers. The package functionality
+    includes returns and risk decompositions of factor models into total,
+    factors, and residuals components, with user choice of standard deviation,
+    value-at-risk (VaR), or expected shortfall (ES) risk measures. The package
+    is well-suited for use in a portfolio construction course, or a
+    financial time series modeling and anlysis course, in a quantitative finance
+    MS degree program.
+License: GPL-2
 Depends: 
     R (>= 3.5)
 Imports:
