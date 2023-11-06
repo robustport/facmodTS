@@ -141,7 +141,7 @@ fit.macro <- fitTsfm(asset.names = colnames(managers[,(1:6)]),
     
 # for group plots (default), user can select plot option from menu prompt
 # menu is repeated to get multiple types of plots based on the same fit
-# plot(fit.macro)
+plot(fit.macro)
                
 # choose specific plot option(s) using which
 # plot the first 2 factor betas of first 4 assets fitted above
