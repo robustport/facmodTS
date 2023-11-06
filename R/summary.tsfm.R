@@ -125,6 +125,10 @@ summary.tsfm <- function(object, se.type=c("Default","HC","HAC"), ...){
 
 print.summary.tsfm <- function(x, digits=3, labels=TRUE, ...) {
   n <- length(x$sum.list)
+  
+  oldoptions <- options()
+  on.exit(options(oldoptions))
+  
   if (labels==TRUE) {
     if(!is.null(cl <- x$call)) {
       cat("\nCall:\n")

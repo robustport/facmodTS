@@ -53,6 +53,8 @@ print.summary.tsfmUpDn <- function(x, digits=3, ...) {
     cat("\nCall:\n")
     dput(cl)
   }
+  oldoptions <- options()
+  on.exit(options(oldoptions))
   cat("\nFactor Model Coefficients:\n", sep="")
   n <- length(x$Up$sum.list)
   for (i in 1:n) {
