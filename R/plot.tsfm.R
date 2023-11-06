@@ -125,38 +125,6 @@
 #' G(6) - \code{\link[PerformanceAnalytics]{chart.Correlation}} and
 #' G(7,8) - \code{\link[corrplot]{corrplot.mixed}} (requires corrplot package). 
 #' 
-#' @examples
-#' 
-#'  # load data
-#' data(managers, package = 'PerformanceAnalytics')
-#' 
-#' fit.macro <- fitTsfm(asset.names = colnames(managers[,(1:6)]),
-#'                      factor.names = colnames(managers[,(7:9)]),
-#'                      rf.name = "US 3m TR", 
-#'                      data = managers)
-#'     
-#' # for group plots (default), user can select plot option from menu prompt
-#' # menu is repeated to get multiple types of plots based on the same fit
-#' plot(fit.macro)
-#'                
-#' # choose specific plot option(s) using which
-#' # plot the first 2 factor betas of first 4 assets fitted above
-#' plot(fit.macro, f.sub=1:2, a.sub=1:4, which=2)
-#' 
-#' # plot factor model residuals scatterplot matrix, with histograms, density 
-#' # overlays, correlations and significance stars
-#' plot(fit.macro, which=6)
-#' 
-#' # for individual plots: set plot.single=TRUE and specify asset.name
-#' # histogram of residuals from an individual asset's factor model fit 
-#' plot(fit.macro, plot.single=TRUE, asset.name="HAM1", which=13)
-#' 
-#' # for individual plots, the "which" argument specifies plot type.
-#' # Plots 15:17 require the suggested "strucchange" package.
-#' # 17 plots the Recursive estimates (RE) test of LS regression coefficients.
-#' require(strucchange)
-#' plot(fit.macro, plot.single=TRUE, asset.name="HAM1", which=17)
-#' 
 #' @method plot tsfm
 #' @export
 
