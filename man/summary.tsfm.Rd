@@ -21,7 +21,7 @@ package.}
 
 \item{x}{an object of class \code{summary.tsfm}.}
 
-\item{digits}{number of significants digits to use when printing. 
+\item{digits}{number of significant digits to use when printing. 
 Default is 3.}
 
 \item{labels}{option to print labels and legend in the summary. Default is 
@@ -62,19 +62,16 @@ predictions.
  # load data
 data(managers, package = 'PerformanceAnalytics')
 
-fit <- fitTsfm(asset.names=colnames(managers[,1]),
+# fit for first 3 assets
+fit <- fitTsfm(asset.names=colnames(managers[,1:3]),
                factor.names=colnames(managers[,7:9]), 
                data=managers)
 
 # summary of factor model fit for all assets
 summary(fit)
 
-# Summary of factor model, using lmtest 
-library(lmtest)
-summary(fit, "HAC")
-
-# summary of lm fit for a single asset
-summary(fit$asset.fit[[1]])
+# summary of factor model fit for the second of three
+summary(fit$asset.fit[[2]])
 
 }
 \seealso{

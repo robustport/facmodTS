@@ -50,16 +50,19 @@
 #'  # load data
 #' data(managers, package = 'PerformanceAnalytics')
 #' 
-#' # fit for first 3 assets
-#' fit <- fitTsfm(asset.names=colnames(managers[,1:3]),
+#' fit <- fitTsfm(asset.names=colnames(managers[,1]),
 #'                factor.names=colnames(managers[,7:9]), 
 #'                data=managers)
 #' 
 #' # summary of factor model fit for all assets
 #' summary(fit)
 #' 
-#' # summary of factor model fit for the second of three
-#' summary(fit$asset.fit[[2]])
+#' # Summary of factor model, using lmtest 
+#' library(lmtest)
+#' summary(fit, "HAC")
+#' 
+#' # summary of lm fit for a single asset
+#' summary(fit$asset.fit[[1]])
 #' 
 #' @method summary tsfm
 #' @export
