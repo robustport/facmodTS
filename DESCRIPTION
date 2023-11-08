@@ -20,8 +20,8 @@ Description: Supports teaching methods of estimating and testing time series
     fitting methods which are not much influenced by outliers. Includes
     returns and risk decompositions, with user choice of  standard deviation,
     value-at-risk, and expected shortfall risk measures. "Robust Statistics
-    Theory and Methods", R. A. Maronna, R. D. Martin, V. J. Yohai, M. Salibian-
-    Barrera (2019) <doi:10.1002/9781119214656>.
+    Theory and Methods (with R)", R. A. Maronna, R. D. Martin, V. J. Yohai, 
+    M. Salibian-Barrera (2019) <doi:10.1002/9781119214656>.
 License: GPL-2
 Depends: 
     R (>= 3.5)
