@@ -123,7 +123,7 @@ fitTsfmLagLeadBeta <- function(asset.names, mkt.name, rf.name=NULL,
   
   factor.names <- make.names(factor.names)
   mkt.name <- make.names(mkt.name) 
-  rf.name <- make.names(mkt.name) 
+  rf.name <- make.names(rf.name) 
   colnames(data) <- make.names(colnames(data))
   
   fit <-  fitTsfm(asset.names=asset.names,
