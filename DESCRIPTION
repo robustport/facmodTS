@@ -1,6 +1,6 @@
 Package: facmodTS
 Type: Package
-Title: Time Series Factor Models for Asset Returns
+Title: Time Series Models for Asset Returns
 Version: 1.0
 Date: 2023-10-27
 Authors@R: c(person(given="Doug",family="Martin",role=c("cre","aut"),
@@ -15,7 +15,7 @@ Authors@R: c(person(given="Doug",family="Martin",role=c("cre","aut"),
      person(given="Mido",family="Shammaa",role="ctb"),
      person(given="Jon",family="Spinney",role="ctb"))
 Description: Supports teaching methods of estimating and testing time series
-    factor models for use in robust portfolio construction and analysis. Unique
+    models for use in robust portfolio construction and analysis. Unique
     in providing not only classical least squares, but also modern robust model
     fitting methods which are not much influenced by outliers. Includes
     returns and risk decompositions, with user choice of  standard deviation,
@@ -28,6 +28,7 @@ Depends:
 Imports:
     boot,
     data.table,
+    fit.models,
     lars,
     lattice,
     leaps,

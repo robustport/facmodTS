@@ -4,9 +4,9 @@
 \name{facmodTS-package}
 \alias{facmodTS}
 \alias{facmodTS-package}
-\title{facmodTS: Time Series Factor Models for Asset Returns}
+\title{facmodTS: Time Series Models for Asset Returns}
 \description{
-Supports teaching methods of estimating and testing time series factor models for use in robust portfolio construction and analysis. Unique in providing not only classical least squares, but also modern robust model fitting methods which are not much influenced by outliers. Includes returns and risk decompositions, with user choice of standard deviation, value-at-risk, and expected shortfall risk measures. "Robust Statistics Theory and Methods (with R)", R. A. Maronna, R. D. Martin, V. J. Yohai, M. Salibian-Barrera (2019) \doi{10.1002/9781119214656}.
+Supports teaching methods of estimating and testing time series models for use in robust portfolio construction and analysis. Unique in providing not only classical least squares, but also modern robust model fitting methods which are not much influenced by outliers. Includes returns and risk decompositions, with user choice of standard deviation, value-at-risk, and expected shortfall risk measures. "Robust Statistics Theory and Methods (with R)", R. A. Maronna, R. D. Martin, V. J. Yohai, M. Salibian-Barrera (2019) \doi{10.1002/9781119214656}.
 }
 \seealso{
 Useful links:
