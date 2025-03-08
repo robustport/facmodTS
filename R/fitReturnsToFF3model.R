@@ -9,7 +9,8 @@
 #' @param digits Integer number of significant digits, with default digits = 2
 #' @param title Character optional plot title, default = NULL
 #'
-#' @returns List containing a data frame LSRobFit and a data frame pvals
+#' @returns List containing data frame LSRobFit and pvals, and a fit.models 
+#' object fitsRobAndLS
 #' 
 #' @details The LSRobFit data frame contains the Alpha (intercept) MKT, SMB, HML
 #' least squares and mOPt robust coefficient estimates, with their t-values in
@@ -30,10 +31,8 @@ fitReturnsToFF3model <- function(returns,datFF,digits = 2,title = NULL)
   #tsPlotMP(reg)
   regdf <- as.data.frame(reg)
   fitLS <- lm(RET ~ .,data = regdf)
-  fitRob <- RobStatTM::lmrobdetMM(RET~.,data = regdf)
-  fitRobLS <- fit.models::fit.models(fitLS,fitRob)
-  # sideBySideQQPlot(fitRobLS,fun = residuals,main = title,xlab = "Standard Normal Quantiles",
-  #                 ylab = "Ordered Residuals")
+  fitRob <- lmrobdetMM(RET~.,data = regdf)
+  fitsRobAndLS <- fit.models(fitLS,fitRob)
   tLS = sapply(summary(fitLS)$coefficients[, 3], function(x) paste("(", round(x,2), ")", sep=""))
   LS <- c(paste0(round(coef(fitLS), digits), tLS), round(summary(fitLS)$adj.r.squared, digits))
   tRob = sapply(summary(fitRob)$coefficients[, 3], function(x) paste("(", round(x,2), ")", sep=""))
@@ -46,5 +45,5 @@ fitReturnsToFF3model <- function(returns,datFF,digits = 2,title = NULL)
   pvalCoefs <- round(t(test$coefs[,6]),3)
   pvals <- data.frame(cbind(MODEL,pvalCoefs))
   row.names(pvals) <- "p-Values"
-  list("LSRobfit" = LSRobFit,"pvalsCompare" = pvals)
+  list("LSRobfit" = LSRobFit, "pvalsCompare" = pvals, "fitsRobAndLS" = fitsRobAndLS)
 }

@@ -16,7 +16,8 @@ fitReturnsToFF3model(returns, datFF, digits = 2, title = NULL)
 \item{title}{Character optional plot title, default = NULL}
 }
 \value{
-List containing a data frame LSRobFit and a data frame pvals
+List containing data frame LSRobFit and pvals, and a fit.models 
+object fitsRobAndLS
 }
 \description{
 Fits univariate xts returns to a Fama-French 3-factor data
