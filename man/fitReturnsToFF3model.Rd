@@ -16,7 +16,7 @@ fitReturnsToFF3model(returns, datFF, digits = 2, title = NULL)
 \item{title}{Character optional plot title, default = NULL}
 }
 \value{
-List containing data frame LSRobFit and pvals, and a fit.models 
+List containing data frames LSRobFit and pvals, and a fit.models 
 object fitsRobAndLS
 }
 \description{

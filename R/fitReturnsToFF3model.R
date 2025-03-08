@@ -9,7 +9,7 @@
 #' @param digits Integer number of significant digits, with default digits = 2
 #' @param title Character optional plot title, default = NULL
 #'
-#' @returns List containing data frame LSRobFit and pvals, and a fit.models 
+#' @returns List containing data frames LSRobFit and pvals, and a fit.models 
 #' object fitsRobAndLS
 #' 
 #' @details The LSRobFit data frame contains the Alpha (intercept) MKT, SMB, HML
